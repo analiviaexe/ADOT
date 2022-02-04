@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ADOT</string>
+    <string name="intro">Na ADOT fazemos a conexão entre você que deseja adotar um pet com uma rede de mais de 100 ONGs por todo o Brasil!</string>
+    <string name="chamada">Dê um MATCH com o seu PET!</string>
+    <string name="bt_home">Começar</string>
+    <string name="title_activity_segunda_tela">SegundaTela</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="bt_adote">Adote</string>
+    <string name="bt_apoie">Apoie</string>
+    <string name="text_bemvindo">Bem vinda, Nome!</string>
+    <string name="text_adocao">Adotar um pet é um ato de amor aos animais. Afinal, com a adoção de cães, você tira um bichinho da rua, além de oferecer espaço a outro peludo em ONGs.</string>
+</resources>
