@@ -1,5 +1,6 @@
 package com.ibm.appentrega;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -15,6 +16,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        String nome = campo_nome.toString();
         Bundle bundle = new Bundle();
 
         campo_nome.setOnEditorActionListener(new EditText.OnEditorActionListener() {
@@ -42,11 +43,14 @@ public class MainActivity extends AppCompatActivity {
             public boolean onEditorAction(TextView view, int actionId, KeyEvent event) {
                 if(actionId == EditorInfo.IME_ACTION_DONE)
                 {
-                    if(nome != null){
+                    String nome = campo_nome.getText().toString();
+                    if(nome.length() != 0){
                         bundle.putString("nome", nome);
                         Intent in = new Intent(MainActivity.this, Doe.class);
                         in.putExtras(bundle);
                         startActivity(in);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Por favor, insira seu nome!", Toast.LENGTH_LONG).show();
                     }
                 }
 
