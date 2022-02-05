@@ -1,6 +1,5 @@
 package com.ibm.appentrega;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -17,6 +16,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,8 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 {
                     String nome = campo_nome.getText().toString();
                     if(nome.length() != 0){
+                        nome = formatarNome(nome);
                         bundle.putString("nome", nome);
-                        Intent in = new Intent(MainActivity.this, Doe.class);
+                        Intent in = new Intent(MainActivity.this, Home.class);
                         in.putExtras(bundle);
                         startActivity(in);
                     } else {
@@ -57,8 +60,18 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
 
+    public String formatarNome(String nomeCompleto){
+        String pattern = "\\S+";
 
+        Pattern r = Pattern.compile(pattern);
+        Matcher m = r.matcher(nomeCompleto);
+        if (m.find( )) {
+            return m.group(0);
+        } else {
+            return nomeCompleto;
+        }
     }
 
     public void usarSpan(){

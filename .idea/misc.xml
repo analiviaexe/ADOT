@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/font/anaheim.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_adote.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_apoie.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_doe.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.26132246376811596" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.20643363728470113" />
         <entry key="app/src/main/res/layout/activity_nav_bottom.xml" value="0.20643363728470113" />

@@ -9,4 +9,12 @@
     <string name="bt_apoie">Apoie</string>
     <string name="text_bemvindo">Bem vinda, Nome!</string>
     <string name="text_adocao">Adotar um pet é um ato de amor aos animais. Afinal, com a adoção de cães, você tira um bichinho da rua, além de oferecer espaço a outro peludo em ONGs.</string>
+    <string name="req_adocao">O principal requisito exigido pelas ONGs parceiras da ADOT na hora de realizar a adoção de cães é um tutor que se encaixe com o peludo, evitando a devolução ou a fuga do animal. Por isso, a entrevista é superimportante para analisar se a pessoa é adequada ou não.</string>
+    <string name="req_entrevista">Ter uma personalidade compatível com o cachorro para adoção conta bastante, pois, se o motivo da procura por um cãozinho for fazer companhia para um idoso, os filhotes não serão recomendados, por exemplo. Eles possuem muita energia e vontade de brincar, por isso, o ideal é unir o pet à família perfeita.</string>
+    <string name="req_entrevista2">Agora que você já sabe de tudo, é só partir para a melhor parte: a adoção de um pet! Deixe seu contato abaixo para que possamos agendar sua entrevista para descobrir se você é um possível adotante.</string>
+    <string name="checkbox_email">Desejo receber ofertas, promoções e informações de parceiros da ADOT por este email.</string>
+    <string name="titulo_apoie">Como posso ajudar?</string>
+    <string name="texto_apoie">"Por meio do programa ADOT, você pode ajudar ONGs e protetores a mudarem a realidade da proteção animal no Brasil. Com a sua doação, mais de 50 instituições parceiras já foram beneficiadas, fazendo a diferença na vida de milhares de cães e gatos que vivem em abrigos em nosso país.  "</string>
+    <string name="texto_apoie2">A cada R$ 250 em média, um cão ou gato é preparado para participar de um evento de adoção permanente. </string>
+    <string name="texto_apoie3">Outros modos de ajudar a causa são: \n - Doar itens nas ONGs(como alimentos e remédios) \n - Apadrinhar um pet \n - Oferecer um lar temporário \n - Ser voluntário nos eventos ou nos próprios abrigos das ONGs parceiras</string>
 </resources>
